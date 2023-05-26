@@ -4,6 +4,8 @@ import Content from "./Component/Content";
 import Message from "./Component/Message";
 import Footer from "./Component/Footer";
 import ListGroup from "./Component/BootTrial";
+import StateManagement from "./Component/StateManagement";
+import List from "./Component/List";
 
 function App() {
   return (
@@ -11,8 +13,7 @@ function App() {
       <Header />
       <div>
         <span>
-          <Menu />
-          <ListGroup />
+          <List />
           <Content />
         </span>
       </div>
