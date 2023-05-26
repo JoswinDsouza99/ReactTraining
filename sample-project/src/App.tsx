@@ -8,17 +8,19 @@ import StateManagement from "./Component/StateManagement";
 import List from "./Component/List";
 
 function App() {
+  let items = ["Kolkata", "Budapest", "London", "Brazil", "Rio"];
   return (
     <div>
       <Header />
       <div>
         <span>
-          <List />
+          <List heading="The citys I want to Visit" items={items} />
           <Content />
         </span>
       </div>
       <div>
         <Footer />
+        <Message text="Hellow My First React Props"></Message>
       </div>
     </div>
   );
